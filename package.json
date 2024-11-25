@@ -139,9 +139,7 @@
     "worker-loader": "^3.0.8",
     "ws": "^8.18.0",
     "xlsx": "^0.18.5",
-    "zustand": "^5.0.1"
-  },
-  "devDependencies": {
+    "zustand": "^5.0.1",
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "@google-cloud/translate": "^8.5.0",
     "@iconify/react": "^5.0.2",
@@ -196,6 +194,7 @@
     "winston-daily-rotate-file": "^5.0.0",
     "xmlbuilder": "^15.1.1"
   },
+  "devDependencies": {},
   "pnpm": {
     "overrides": {
       "@types/react": "18.3.12",
