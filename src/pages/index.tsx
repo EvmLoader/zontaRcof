@@ -36,7 +36,7 @@ const Home = () => {
         {/* <StatusSection />
         <FeaturesSection /> */}
         <BannerSection />
-        <Footer />
+        {/* <Footer /> */}
         <CookieBanner />
       </Layout>
     );
