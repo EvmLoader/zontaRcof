@@ -147,6 +147,8 @@
     "@iconify/react": "^5.0.2",
     "@sendgrid/mail": "^8.1.4",
     "@types/fslightbox-react": "^1.7.8",
+    "@types/graceful-fs": "^4.1.9",
+    "@types/istanbul-lib-report": "^3.0.3",
     "@types/lodash": "^4.17.13",
     "@types/node": "22.9.0",
     "@types/prismjs": "^1.26.5",

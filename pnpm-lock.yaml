@@ -349,6 +349,12 @@ importers:
       '@types/fslightbox-react':
         specifier: ^1.7.8
         version: 1.7.8
+      '@types/graceful-fs':
+        specifier: ^4.1.9
+        version: 4.1.9
+      '@types/istanbul-lib-report':
+        specifier: ^3.0.3
+        version: 3.0.3
       '@types/lodash':
         specifier: ^4.17.13
         version: 4.17.13
@@ -2666,6 +2672,9 @@ packages:
 
   '@types/fslightbox-react@1.7.8':
     resolution: {integrity: sha512-98lYTJS5n2osLdxVqZ0Kwg8TUDzsLqDaY/kNb/1PlxmJ8xbxEK1a3gHQUoz0cFSusDAH8bV40IvqdhndVFtYdw==}
+
+  '@types/graceful-fs@4.1.9':
+    resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
 
   '@types/hoist-non-react-statics@3.3.5':
     resolution: {integrity: sha512-SbcrWzkKBw2cdwRTwQAswfpB9g9LJWfjtUeW/jvNwbhC8cpmmNYVePa+ncbUe0rGTQ7G3Ff6mYUN2VMfLVr+Sg==}
@@ -12442,6 +12451,10 @@ snapshots:
   '@types/fslightbox-react@1.7.8':
     dependencies:
       '@types/react': 18.3.12
+
+  '@types/graceful-fs@4.1.9':
+    dependencies:
+      '@types/node': 22.9.0
 
   '@types/hoist-non-react-statics@3.3.5':
     dependencies:
