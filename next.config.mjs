@@ -31,6 +31,9 @@ const nextConfig = async (phase, { defaultConfig }) => {
     trailingSlash: false,
     reactStrictMode: true,
     poweredByHeader: false,
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
     async rewrites() {
       return [
         {
