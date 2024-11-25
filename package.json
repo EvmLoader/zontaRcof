@@ -19,7 +19,7 @@
     "build:backend": "tsc -p tsconfig.json --noEmit false",
     "build:all": "pnpm build && pnpm build:backend",
     "seed": "sequelize-cli db:seed:all --config config.js",
-    "updator": "pnpm stop && pnpm update && pnpm seed && pnpm build:all && pnpm start",
+    "updator": "pnpm stop && pnapm update && pnpm seed && pnpm build:all && pnpm start",
     "updator:thread": "pnpm stop && pnpm update && pnpm seed && pnpm build:all && pnpm start:thread",
     "updator:backend": "pnpm stop && pnpm build:backend && pnpm start",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src backend models",
