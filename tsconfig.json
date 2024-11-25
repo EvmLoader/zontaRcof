@@ -4,32 +4,32 @@
     "allowJs": true,
     "noEmit": true,
     "outDir": "./dist",
-    "module": "CommonJS",
-    "target": "ES2018",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "downlevelIteration": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "preserve",
-    "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
+    "module": "esnext",
+    "target": "ES2018",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "strict": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "types": ["node", "react", "next"],
     "paths": {
       "@/*": ["./src/*"],
       "@b/*": ["./backend/*"],
       "@db/*": ["./models/*"]
-    },
-    "strict": false,
-    "isolatedModules": true,
-    "strictNullChecks": true,
-    "typeRoots": ["./types", "./node_modules/@types"],
-    "types": ["node", "react", "next"]
+    }
   },
   "files": ["./types/index.d.ts", "./types/models/index.d.ts"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
