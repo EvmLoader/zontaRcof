@@ -17,6 +17,7 @@ const TokenRenum = () => {
         {data.map((item, idx) => {
           return (
             <div
+              key={idx}
               className="px-4 py-6 min-w-96 w-1/5 h-96 text-white flex flex-col items-center justify-evenly rounded-xl gap-4"
               style={{ boxShadow: "0 5.02px 22.6px #9ec1ff4d inset" }}
             >
