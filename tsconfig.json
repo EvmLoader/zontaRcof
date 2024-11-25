@@ -4,6 +4,7 @@
     "allowJs": true,
     // "strict": true,
     "noEmit": true,
+
     "outDir": "./dist",
     "module": "CommonJS",
     "target": "ES2018",

@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { useDashboardStore } from "@/stores/dashboard";
-import footerData from "../../../../data/footer.json";
+
 import { Icon } from "@iconify/react";
 
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "GoatTapper";
+const footerData = require("../../../../data/footer.json");
 const FooterSection: React.FC = () => {
   const { t } = useTranslation();
   const { settings } = useDashboardStore();
