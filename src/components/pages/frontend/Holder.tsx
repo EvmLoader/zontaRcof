@@ -8,7 +8,11 @@ const Holder = () => {
         </p>
       </div>
       <div className=" w-full md:w-1/2 h-96 flex justify-center items-center">
-        <video src="https://rcofinance.com/video/coin.webm" autoPlay></video>
+        <video
+          src="https://rcofinance.com/video/coin.webm"
+          autoPlay
+          muted
+        ></video>
       </div>
     </section>
   );

@@ -17,6 +17,7 @@ import More from "@/components/pages/frontend/More";
 import TokenRenum from "@/components/pages/frontend/TokenRenum";
 import Tokenomics from "@/components/pages/frontend/Tokenomics";
 import FAQ from "@/components/pages/frontend/FAQ";
+import Roadmap from "@/components/pages/frontend/Roadmap";
 const frontendType = process.env.NEXT_PUBLIC_FRONTEND_TYPE || "default";
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
         <Holder />
         <More />
         <TokenRenum />
+        <Roadmap />
         <Tokenomics />
         <FAQ />
         {/* <StatusSection />
